@@ -18,6 +18,7 @@ cv.imshow('Image Resized', resized_image)
 
 def changeRes(width,height):
     #work on live videos only (webcam,external camera)
+    #propId -> video capture property ID,3 for width,4 for height
     capture.set(3,width)
     capture.set(4,height)
 
