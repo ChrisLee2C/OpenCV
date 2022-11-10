@@ -7,9 +7,9 @@ cv.imshow('Blank', blank)
 img = cv.imread('Photos/images.jfif')
 cv.imshow('Human', img)
 
-#Paint the image a certain color R-G-B
+#Paint the image a certain color B-G-R
 #top to down, left to right [height,width]
-blank[200:300, 300:400] = 0,0,255
+blank[200:300, 300:400] = 0,255,0
 cv.imshow('Green', blank)
 
 #draw rectangle img, starting pt, ending pt, color, thickness cv.FILLED -> -1
