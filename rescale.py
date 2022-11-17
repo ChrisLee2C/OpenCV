@@ -5,6 +5,7 @@ img = cv.imread('Photos/images.jfif')
 #show image
 cv.imshow('Human', img)
 
+#sth.shape returns a tuple of dimension, [0] for height and [1] for width
 def rescaleFrame(frame, scale=0.75):
     #work on images,videos,live videos
     width = int(frame.shape[1]*scale)
